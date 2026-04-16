@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -sL -k https://www.brbotssa.com.br/ -o /tmp/brbots.html)",
+      "Read(//tmp/**)",
+      "Bash(python *)",
+      "Bash(cygpath -w /tmp/brbots.html)"
+    ]
+  }
+}
