@@ -4,7 +4,12 @@
       "Bash(curl -sL -k https://www.brbotssa.com.br/ -o /tmp/brbots.html)",
       "Read(//tmp/**)",
       "Bash(python *)",
-      "Bash(cygpath -w /tmp/brbots.html)"
+      "Bash(cygpath -w /tmp/brbots.html)",
+      "Bash(timeout 15 npm run dev)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(npm ls *)"
     ]
   }
 }
