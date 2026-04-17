@@ -1,5 +1,125 @@
 {
+  "nav": {
+    "about": "Quem Somos",
+    "advantages": "Vantagens",
+    "cases": "Cases",
+    "differentials": "Diferenciais",
+    "applications": "Aplicações",
+    "contact": "Contato",
+    "cta_whatsapp": "Fale no WhatsApp"
+  },
   "hero": {
-    "title": "Comunicação Automatizada Inteligente"
+    "eyebrow": "BRBots S/A",
+    "title": "Comunicação Automatizada Inteligente",
+    "subtitle": "Atendimento virtual por voz e texto, até 8× mais econômico que humano. +15 anos revolucionando CX.",
+    "cta_primary": "Fale no WhatsApp",
+    "cta_secondary": "Ver diferenciais",
+    "chips": { "calls": "+10M chamadas/dia", "years": "+15 anos", "hours": "24×7" }
+  },
+  "about": {
+    "eyebrow": "Quem Somos",
+    "title": "15+ anos automatizando conversas com clientes",
+    "body_1": "Os BRBots são sistemas de atendimento virtual criados pela BRBots S/A para interagir com o consumidor final, proporcionando uma experiência única de comunicação rápida e eficiente por um custo até oito vezes menor do que o atendimento tradicional.",
+    "body_2": "Somos uma das principais fornecedoras de tecnologia em telefonia computadorizada e nos distinguimos pela flexibilidade em criar produtos sob medida para marketing, cobrança, call center, operadoras de cartões, SAC e mais.",
+    "offices_title": "Escritórios",
+    "office_sp": "São Paulo — Brasil · Main Office",
+    "office_sv": "Sunnyvale — Califórnia · Innovation Center"
+  },
+  "advantages": {
+    "eyebrow": "Vantagens",
+    "title": "Conheça as principais vantagens",
+    "items": {
+      "cost": { "title": "Redução de Custos", "desc": "Economia de até 8× comparado ao atendimento humano tradicional." },
+      "always_on": { "title": "Atendimento 24×7", "desc": "Sua empresa disponível 24h por dia, 7 dias por semana, sem custo extra." },
+      "omnichannel": { "title": "Omnichannel", "desc": "Múltiplos atendimentos simultâneos por texto ou voz." },
+      "custom": { "title": "Personalização", "desc": "BRBots se adequam à sua necessidade, em atendimentos ativos ou receptivos." },
+      "database": { "title": "Banco de Dados", "desc": "Gravação de todas as chamadas de voz e vídeo realizadas." },
+      "monitor": { "title": "Gerenciamento", "desc": "Plataforma online com relatórios completos de todos os atendimentos." }
+    }
+  },
+  "metrics": {
+    "eyebrow": "Números",
+    "calls": { "value": "10M+", "label": "chamadas por dia" },
+    "years": { "value": "15+", "label": "anos de mercado" },
+    "savings": { "value": "8×", "label": "mais econômico" },
+    "uptime": { "value": "24/7", "label": "de disponibilidade" }
+  },
+  "cases": {
+    "eyebrow": "Cases de Sucesso",
+    "title": "Empresas que já revolucionaram sua comunicação"
+  },
+  "differentials": {
+    "eyebrow": "Diferenciais",
+    "title": "Por que escolher a BRBots",
+    "items": {
+      "capacity": { "title": "Capacidade Operacional", "desc": "Mais de 10 milhões de chamadas processadas por dia." },
+      "integration": { "title": "Integração com Legados", "desc": "API, emulação de tela, RPA e Salesforce — conectamos qualquer sistema." },
+      "grammar": { "title": "Design Gramatical", "desc": "Construção de frases e gramáticas complexas para diálogos naturais." },
+      "economic": { "title": "Econômico", "desc": "Menor custo em relação à concorrência sem abrir mão da qualidade." },
+      "proprietary": { "title": "Tecnologia Proprietária", "desc": "Sistema próprio, desenvolvido internamente, sem depender de soluções padrão." }
+    }
+  },
+  "applications": {
+    "eyebrow": "Aplicações Práticas",
+    "title": "Onde os BRBots fazem a diferença",
+    "items": {
+      "registry": "Atualização cadastral",
+      "servicedesk": "Service Desk",
+      "sac": "SAC",
+      "leads": "Geração de Leads",
+      "candidates": "Filtro de Candidatos",
+      "debt": "Renegociação de Dívida",
+      "brand": "Apoio Institucional",
+      "testdrive": "Agendamento de Test Drive",
+      "products": "Dúvidas sobre Produtos",
+      "interviews": "Agendamento de Entrevistas",
+      "surveys": "Pesquisas de Qualidade",
+      "learning": "Ensino e Aprendizado",
+      "evaluation": "Avaliação de Colaborador",
+      "tickets": "Abertura de Chamados"
+    }
+  },
+  "contact": {
+    "eyebrow": "Contato",
+    "title": "Comece a revolucionar a comunicação da sua empresa",
+    "subtitle": "Preencha abaixo e continue a conversa direto no WhatsApp.",
+    "fields": {
+      "name": "Nome",
+      "email": "Email",
+      "phone": "Telefone",
+      "subject": "Assunto",
+      "message": "Mensagem"
+    },
+    "errors": {
+      "name": "Informe seu nome",
+      "email": "Email inválido",
+      "phone": "Telefone inválido",
+      "subject": "Informe um assunto",
+      "message": "Mensagem muito curta"
+    },
+    "submit": "Enviar no WhatsApp",
+    "direct": "Ou fale direto no WhatsApp",
+    "whatsapp_greeting": "Olá! Tenho interesse nos BRBots."
+  },
+  "location": {
+    "eyebrow": "Onde Estamos",
+    "title": "Presença local, alcance global",
+    "sp": {
+      "city": "São Paulo, Brasil",
+      "address": "Rua Estela, 515 — Conj. 81/82 — Bloco A",
+      "neighborhood": "Vila Mariana",
+      "zip": "CEP 04.011-904"
+    },
+    "sv": {
+      "city": "Sunnyvale, Califórnia",
+      "address": "Innovation Center"
+    },
+    "phone": "(11) 2391-2687"
+  },
+  "footer": {
+    "tagline": "Comunicação automatizada desde 2008.",
+    "company": "BRBots Informática S/A",
+    "cnpj": "CNPJ 05.084.150/0001-44",
+    "rights": "Todos os direitos reservados."
   }
 }
