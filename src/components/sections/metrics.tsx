@@ -7,7 +7,7 @@ export function MetricsSection() {
   const items = [
     { key: "calls", to: 10, suffix: "M+" },
     { key: "years", to: 15, suffix: "+" },
-    { key: "savings", to: 8, suffix: "x" },
+    { key: "savings", to: 8, suffix: "×" },
     { key: "uptime", to: 24, suffix: "/7" },
   ];
   return (

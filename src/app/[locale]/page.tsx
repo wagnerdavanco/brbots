@@ -1,10 +1,31 @@
-import { useTranslations } from "next-intl";
+import { Header } from "@/components/layout/header";
+import { Footer } from "@/components/layout/footer";
+import { HeroSection } from "@/components/sections/hero";
+import { AboutSection } from "@/components/sections/about";
+import { AdvantagesSection } from "@/components/sections/advantages";
+import { MetricsSection } from "@/components/sections/metrics";
+import { CasesSection } from "@/components/sections/cases";
+import { DifferentialsSection } from "@/components/sections/differentials";
+import { ApplicationsSection } from "@/components/sections/applications";
+import { ContactSection } from "@/components/sections/contact";
+import { LocationSection } from "@/components/sections/location";
 
 export default function Home() {
-  const t = useTranslations("hero");
   return (
-    <main className="min-h-screen grid place-items-center p-8">
-      <h1 className="text-5xl font-bold brand-text">{t("title")}</h1>
-    </main>
+    <>
+      <Header />
+      <main>
+        <HeroSection />
+        <AboutSection />
+        <AdvantagesSection />
+        <MetricsSection />
+        <CasesSection />
+        <DifferentialsSection />
+        <ApplicationsSection />
+        <ContactSection />
+        <LocationSection />
+      </main>
+      <Footer />
+    </>
   );
 }
