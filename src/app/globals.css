@@ -51,6 +51,15 @@ body {
   color: transparent;
 }
 
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
 .grid-bg {
   background-image:
     linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
