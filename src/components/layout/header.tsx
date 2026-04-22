@@ -22,6 +22,7 @@ export function Header() {
   const links = [
     { href: "#about", label: t("about") },
     { href: "#advantages", label: t("advantages") },
+    { href: "#products", label: t("products") },
     { href: "#cases", label: t("cases") },
     { href: "#differentials", label: t("differentials") },
     { href: "#applications", label: t("applications") },

@@ -2,6 +2,7 @@
   "nav": {
     "about": "About",
     "advantages": "Advantages",
+    "products": "Products",
     "cases": "Cases",
     "differentials": "Why BRBots",
     "applications": "Applications",
@@ -43,6 +44,30 @@
     "years": { "value": "15+", "label": "years in market" },
     "savings": { "value": "8×", "label": "cost savings" },
     "uptime": { "value": "24/7", "label": "availability" }
+  },
+  "products": {
+    "eyebrow": "Products",
+    "title": "Solutions in the BRBots ecosystem",
+    "subtitle": "Products for automating service, communication, and management across digital operations.",
+    "visit": "Open",
+    "items": {
+      "maestria": {
+        "name": "Maestria",
+        "desc": "Conversational automation for service and relationship journeys."
+      },
+      "lqv": {
+        "name": "LQV",
+        "desc": "Digital environment for AI-driven communication and service."
+      },
+      "epbxManager": {
+        "name": "EpbxManager",
+        "desc": "Operational management for telephony, queues, and corporate PBX resources."
+      },
+      "via": {
+        "name": "VIA",
+        "desc": "Voice virtual assistant for fast, natural, and scalable interactions."
+      }
+    }
   },
   "cases": {
     "eyebrow": "Success Stories",

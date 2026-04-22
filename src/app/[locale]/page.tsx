@@ -4,6 +4,7 @@ import { HeroSection } from "@/components/sections/hero";
 import { AboutSection } from "@/components/sections/about";
 import { AdvantagesSection } from "@/components/sections/advantages";
 import { MetricsSection } from "@/components/sections/metrics";
+import { ProductsSection } from "@/components/sections/products";
 import { CasesSection } from "@/components/sections/cases";
 import { DifferentialsSection } from "@/components/sections/differentials";
 import { ApplicationsSection } from "@/components/sections/applications";
@@ -19,6 +20,7 @@ export default function Home() {
         <AboutSection />
         <AdvantagesSection />
         <MetricsSection />
+        <ProductsSection />
         <CasesSection />
         <DifferentialsSection />
         <ApplicationsSection />

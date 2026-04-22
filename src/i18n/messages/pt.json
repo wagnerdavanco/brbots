@@ -2,6 +2,7 @@
   "nav": {
     "about": "Quem Somos",
     "advantages": "Vantagens",
+    "products": "Produtos",
     "cases": "Cases",
     "differentials": "Diferenciais",
     "applications": "Aplicações",
@@ -43,6 +44,30 @@
     "years": { "value": "15+", "label": "anos de mercado" },
     "savings": { "value": "8×", "label": "mais econômico" },
     "uptime": { "value": "24/7", "label": "de disponibilidade" }
+  },
+  "products": {
+    "eyebrow": "Produtos",
+    "title": "Soluções do ecossistema BRBots",
+    "subtitle": "Produtos para automatizar atendimento, comunicação e gestão em operações digitais.",
+    "visit": "Acessar",
+    "items": {
+      "maestria": {
+        "name": "Maestria",
+        "desc": "Automação conversacional para jornadas de atendimento e relacionamento."
+      },
+      "lqv": {
+        "name": "LQV",
+        "desc": "Ambiente digital para comunicação e atendimento orientados por IA."
+      },
+      "epbxManager": {
+        "name": "EpbxManager",
+        "desc": "Gestão operacional para telefonia, filas e recursos de PABX corporativo."
+      },
+      "via": {
+        "name": "VIA",
+        "desc": "Assistente virtual por voz para interações rápidas, naturais e escaláveis."
+      }
+    }
   },
   "cases": {
     "eyebrow": "Cases de Sucesso",

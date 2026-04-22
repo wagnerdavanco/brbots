@@ -1,0 +1,8 @@
+<svg width="176" height="56" viewBox="0 0 176 56" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title>VIA</title>
+  <path d="M43 8C37.4772 8 33 12.4772 33 18V29C33 34.5228 37.4772 39 43 39C48.5228 39 53 34.5228 53 29V18C53 12.4772 48.5228 8 43 8Z" stroke="#7C3AED" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M25 28C25 37.9411 33.0589 46 43 46C52.9411 46 61 37.9411 61 28" stroke="#7C3AED" stroke-width="4" stroke-linecap="round"/>
+  <path d="M43 46V53" stroke="#7C3AED" stroke-width="4" stroke-linecap="round"/>
+  <path d="M34 53H52" stroke="#7C3AED" stroke-width="4" stroke-linecap="round"/>
+  <text x="80" y="37" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" letter-spacing="5">VIA</text>
+</svg>

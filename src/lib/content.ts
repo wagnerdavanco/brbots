@@ -34,6 +34,40 @@ export const applications = [
 
 export const metrics = ["calls", "years", "savings", "uptime"] as const;
 
+export const products = [
+  {
+    key: "maestria",
+    src: "/logos/products/maestria.png",
+    alt: "Maestria",
+    width: 195,
+    height: 45,
+    href: "https://mia.talkcomm.com.br",
+  },
+  {
+    key: "lqv",
+    src: "/logos/products/lqv.png",
+    alt: "LQV",
+    width: 413,
+    height: 141,
+    href: "https://unimed.lqv.ia.br",
+  },
+  {
+    key: "epbxManager",
+    src: "/logos/products/epbx-manager.png",
+    alt: "EpbxManager",
+    width: 216,
+    height: 82,
+    href: "https://manager.epbx.com.br",
+  },
+  {
+    key: "via",
+    src: "/logos/products/via.svg",
+    alt: "VIA",
+    width: 176,
+    height: 56,
+  },
+] as const;
+
 export const clientLogos = [
   { src: "/logos/nubank.svg", alt: "Nubank" },
   { src: "/logos/claro.svg", alt: "Claro" },
