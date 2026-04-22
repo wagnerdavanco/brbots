@@ -9,7 +9,20 @@
       "Bash(npm install *)",
       "Bash(npx tsc *)",
       "Bash(npm run *)",
-      "Bash(npm ls *)"
+      "Bash(npm ls *)",
+      "Bash(ls C:/repos/brbots_lp/src/components/)",
+      "Bash(cat C:/repos/brbots_lp/src/lib/utils.ts)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(node -e \"const l = require\\('lucide-react'\\); const names = Object.keys\\(l\\).filter\\(k => k.toLowerCase\\(\\).includes\\('linked'\\) || k.toLowerCase\\(\\).includes\\('instagram'\\) || k.toLowerCase\\(\\).includes\\('linkedin'\\)\\); console.log\\(names\\);\")",
+      "Bash(node -e \"const l = require\\('lucide-react'\\); console.log\\(Object.keys\\(l\\).filter\\(k => /link|globe|share|user/i.test\\(k\\)\\).slice\\(0,20\\)\\);\")",
+      "Bash(node -e \"const l = require\\('lucide-react'\\); console.log\\(Object.keys\\(l\\).filter\\(k => /^[A-Z]/.test\\(k\\) && !k.endsWith\\('Icon'\\)\\).filter\\(k => /mail|at|send/i.test\\(k\\)\\)\\);\")",
+      "Bash(node -e \"const pkg = require\\('lucide-react/package.json'\\); console.log\\(pkg.version\\);\")",
+      "Bash(node -e \"const l = require\\('lucide-react'\\); console.log\\('Mail' in l, 'Globe' in l, 'ExternalLink' in l, 'Share2' in l\\);\")",
+      "Bash(node -e \"const Icons = require\\('lucide-react'\\); const check = ['Headset','UserCog2','TicketPlus','PackageSearch','ReceiptText','BadgeDollarSign','Languages','Radio','Plug','Car','Megaphone','CalendarCheck','ClipboardList','GraduationCap','UserCog','LifeBuoy','Target','UserCheck','MapPin','Phone','MessageCircle']; check.forEach\\(n => console.log\\(n, typeof Icons[n] === 'function' ? 'OK' : 'MISSING'\\)\\)\")",
+      "Bash(node -e ' *)",
+      "Bash(node -e \"try{require.resolve\\('styled-jsx'\\);console.log\\('found'\\)}catch{console.log\\('not found'\\)}\")",
+      "Bash(node -e \"import\\('@hookform/resolvers/zod'\\).then\\(m => console.log\\('zodResolver:', typeof m.zodResolver\\)\\)\")",
+      "Bash(ls src/app/[locale]/)"
     ]
   }
 }

@@ -1,7 +1,6 @@
 "use client";
 import { usePathname, useRouter } from "next/navigation";
 import { useLocale } from "next-intl";
-import { Languages } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const locales = ["pt", "en"] as const;
@@ -19,7 +18,6 @@ export function LanguageToggle({ className }: { className?: string }) {
 
   return (
     <div className={cn("inline-flex items-center gap-1 rounded-full border border-white/10 p-1", className)}>
-      <Languages className="h-4 w-4 ml-2 text-white/60" aria-hidden />
       {locales.map((l) => (
         <button
           key={l}

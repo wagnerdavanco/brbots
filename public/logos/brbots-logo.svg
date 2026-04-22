@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 88" role="img" aria-labelledby="title desc">
+  <title id="title">BRBots S/A</title>
+  <desc id="desc">Logo vetorial da BRBots S/A em gradiente azul e ciano.</desc>
+  <defs>
+    <linearGradient id="brbots-vivid" x1="0" y1="0" x2="320" y2="88" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2563EB"/>
+      <stop offset="0.42" stop-color="#0284C7"/>
+      <stop offset="1" stop-color="#00E5FF"/>
+    </linearGradient>
+    <linearGradient id="brbots-line" x1="0" y1="0" x2="300" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E0F2FE"/>
+      <stop offset="0.35" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#00E5FF"/>
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-35%" width="120%" height="170%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="1.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <path d="M8 4H306" stroke="url(#brbots-line)" stroke-width="5" stroke-linecap="square"/>
+  <path d="M8 80H306" stroke="url(#brbots-line)" stroke-width="5" stroke-linecap="square"/>
+  <g filter="url(#glow)">
+    <text x="16" y="61" fill="url(#brbots-vivid)" font-family="Arial Black, Montserrat, Arial, sans-serif" font-size="48" font-weight="900">BRbots</text>
+    <text x="260" y="64" fill="#F8FAFC" font-family="Arial Black, Montserrat, Arial, sans-serif" font-size="24" font-weight="900">S/A</text>
+  </g>
+</svg>

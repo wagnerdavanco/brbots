@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { LanguageToggle } from "./language-toggle";
 import { buildWhatsAppUrl } from "@/lib/whatsapp";
+import { BrandLogo } from "./brand-logo";
 
 export function Header() {
   const t = useTranslations("nav");
@@ -37,8 +38,8 @@ export function Header() {
       )}
     >
       <div className="mx-auto max-w-7xl px-6 h-16 flex items-center justify-between">
-        <Link href="/" className="font-bold tracking-tight text-lg">
-          <span className="brand-text">BR</span>Bots
+        <Link href="/" className="shrink-0" aria-label="BRBots S/A">
+          <BrandLogo />
         </Link>
         <nav className="hidden lg:flex items-center gap-6">
           {links.map((l) => (

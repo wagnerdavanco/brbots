@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { COMPANY } from "@/lib/constants";
 import { Mail } from "lucide-react";
+import { BrandLogo } from "./brand-logo";
 
 function LinkedinIcon({ className }: { className?: string }) {
   return (
@@ -18,6 +19,14 @@ function InstagramIcon({ className }: { className?: string }) {
   );
 }
 
+function FacebookIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.414c0-3.025 1.792-4.697 4.533-4.697 1.313 0 2.686.236 2.686.236v2.97H15.83c-1.491 0-1.955.931-1.955 1.886v2.264h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z" />
+    </svg>
+  );
+}
+
 export function Footer() {
   const t = useTranslations("footer");
   const year = new Date().getFullYear();
@@ -25,7 +34,7 @@ export function Footer() {
     <footer className="border-t border-white/5 mt-24">
       <div className="mx-auto max-w-7xl px-6 py-12 grid gap-8 md:grid-cols-3">
         <div>
-          <div className="font-bold text-lg"><span className="brand-text">BR</span>Bots</div>
+          <BrandLogo imageClassName="w-44" />
           <p className="mt-2 text-sm text-white/60 max-w-xs">{t("tagline")}</p>
         </div>
         <div className="text-sm text-white/60 space-y-1">
@@ -36,6 +45,9 @@ export function Footer() {
           <p>{COMPANY.phone}</p>
         </div>
         <div className="flex md:justify-end items-start gap-3">
+          <a aria-label="Facebook" href="https://www.facebook.com/brbotssaoficial/" target="_blank" rel="noreferrer" className="p-2 rounded-full border border-white/10 hover:bg-white/5">
+            <FacebookIcon className="h-4 w-4" />
+          </a>
           <a aria-label="LinkedIn" href="#" className="p-2 rounded-full border border-white/10 hover:bg-white/5">
             <LinkedinIcon className="h-4 w-4" />
           </a>

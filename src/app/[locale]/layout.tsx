@@ -36,7 +36,7 @@ const jsonLd = {
   "@type": "Organization",
   name: "BRBots Informatica S/A",
   url: "https://www.brbotssa.com.br",
-  logo: "https://www.brbotssa.com.br/logo.svg",
+  logo: "https://www.brbotssa.com.br/logos/brbots-logo.svg",
   telephone: "+55 11 2391-2687",
   address: {
     "@type": "PostalAddress",

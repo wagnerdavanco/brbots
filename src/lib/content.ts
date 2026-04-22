@@ -8,11 +8,11 @@ export const advantages = [
 ] as const;
 
 export const differentials = [
-  { key: "capacity", icon: "Radio" },
-  { key: "integration", icon: "Plug" },
-  { key: "grammar", icon: "Languages" },
-  { key: "economic", icon: "BadgeDollarSign" },
-  { key: "proprietary", icon: "Cpu" },
+  { key: "capacity", icon: "Gauge" },
+  { key: "integration", icon: "Workflow" },
+  { key: "grammar", icon: "MessageSquareText" },
+  { key: "economic", icon: "HandCoins" },
+  { key: "proprietary", icon: "Fingerprint" },
 ] as const;
 
 export const applications = [
@@ -35,10 +35,10 @@ export const applications = [
 export const metrics = ["calls", "years", "savings", "uptime"] as const;
 
 export const clientLogos = [
-  "client-01",
-  "client-02",
-  "client-03",
-  "client-04",
-  "client-05",
-  "client-06",
+  { src: "/logos/nubank.svg", alt: "Nubank" },
+  { src: "/logos/claro.svg", alt: "Claro" },
+  { src: "/logos/ifood.svg", alt: "iFood" },
+  { src: "/logos/nubank.svg", alt: "Nubank" },
+  { src: "/logos/claro.svg", alt: "Claro" },
+  { src: "/logos/ifood.svg", alt: "iFood" },
 ] as const;

@@ -14,9 +14,9 @@ export function CasesSection() {
       </div>
       <div className="relative mt-14">
         <div className="flex animate-marquee gap-12 w-max">
-          {row.map((l, i) => (
-            <div key={`${l}-${i}`} className="h-14 w-40 relative grayscale hover:grayscale-0 transition opacity-70 hover:opacity-100">
-              <Image src={`/logos/${l}.svg`} alt={l} fill sizes="160px" />
+          {row.map((logo, i) => (
+            <div key={`${logo.alt}-${i}`} className="h-14 w-40 relative grayscale hover:grayscale-0 transition opacity-70 hover:opacity-100">
+              <Image src={logo.src} alt={logo.alt} fill sizes="160px" className="object-contain" />
             </div>
           ))}
         </div>
