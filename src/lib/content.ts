@@ -41,7 +41,6 @@ export const products = [
     alt: "Maestria",
     width: 195,
     height: 45,
-    href: "https://mia.talkcomm.com.br",
   },
   {
     key: "lqv",
@@ -49,7 +48,6 @@ export const products = [
     alt: "LQV",
     width: 413,
     height: 141,
-    href: "https://unimed.lqv.ia.br",
   },
   {
     key: "epbxManager",
@@ -57,7 +55,6 @@ export const products = [
     alt: "EpbxManager",
     width: 216,
     height: 82,
-    href: "https://manager.epbx.com.br",
   },
   {
     key: "via",
