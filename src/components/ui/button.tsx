@@ -11,8 +11,9 @@ const buttonVariants = cva(
         primary:
           "text-white brand-gradient hover:shadow-[0_0_40px_-10px_var(--brand-to)] focus-visible:ring-[var(--brand-to)]",
         secondary:
-          "bg-white/5 text-white border border-white/10 hover:bg-white/10 backdrop-blur focus-visible:ring-white/30",
-        ghost: "text-white hover:bg-white/5 focus-visible:ring-white/20",
+          "border border-[var(--border-subtle)] bg-[var(--surface-muted)] text-[var(--text-primary)] backdrop-blur hover:bg-[var(--surface-hover)] focus-visible:ring-[var(--brand-to)]",
+        ghost:
+          "text-[var(--text-primary)] hover:bg-[var(--surface-muted)] focus-visible:ring-[var(--brand-to)]",
         whatsapp:
           "bg-[#25D366] text-black hover:bg-[#1ebe5d] focus-visible:ring-[#25D366]",
       },

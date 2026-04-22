@@ -38,9 +38,9 @@ export function DifferentialsSection() {
                       {Icon && <Icon className="h-6 w-6 text-black/80" strokeWidth={2.25} />}
                     </div>
                     <div className="md:[direction:ltr]">
-                      <div className="text-xs font-mono text-white/40">0{i + 1}</div>
+                      <div className="text-xs font-mono text-[var(--text-faint)]">0{i + 1}</div>
                       <h3 className="text-2xl font-semibold mt-1">{t(`items.${key}.title`)}</h3>
-                      <p className="mt-2 text-white/70">{t(`items.${key}.desc`)}</p>
+                      <p className="mt-2 text-[var(--text-muted)]">{t(`items.${key}.desc`)}</p>
                     </div>
                   </li>
                 </ScrollReveal>

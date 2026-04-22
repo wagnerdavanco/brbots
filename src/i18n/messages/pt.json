@@ -7,7 +7,9 @@
     "differentials": "Diferenciais",
     "applications": "Aplicações",
     "contact": "Contato",
-    "cta_whatsapp": "Fale no WhatsApp"
+    "cta_whatsapp": "Fale no WhatsApp",
+    "theme_white": "Tema branco",
+    "theme_black": "Tema preto"
   },
   "hero": {
     "eyebrow": "BRBots S/A",
@@ -23,8 +25,7 @@
     "body_1": "Os BRBots são sistemas de atendimento virtual criados pela BRBots S/A para interagir com o consumidor final, proporcionando uma experiência única de comunicação rápida e eficiente por um custo até oito vezes menor do que o atendimento tradicional.",
     "body_2": "Somos uma das principais fornecedoras de tecnologia em telefonia computadorizada e nos distinguimos pela flexibilidade em criar produtos sob medida para marketing, cobrança, call center, operadoras de cartões, SAC e mais.",
     "offices_title": "Escritórios",
-    "office_sp": "São Paulo — Brasil · Main Office",
-    "office_sv": "Sunnyvale — Califórnia · Innovation Center"
+    "office_sp": "São Paulo — Brasil · Main Office"
   },
   "advantages": {
     "eyebrow": "Vantagens",
@@ -134,10 +135,6 @@
       "address": "Rua Estela, 515 — Conj. 81/82 — Bloco A",
       "neighborhood": "Vila Mariana",
       "zip": "CEP 04.011-904"
-    },
-    "sv": {
-      "city": "Sunnyvale, Califórnia",
-      "address": "Innovation Center"
     },
     "phone": "(11) 2391-2687"
   },

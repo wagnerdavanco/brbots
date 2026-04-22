@@ -5,7 +5,7 @@ import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import { products } from "@/lib/content";
 
 const cardClass =
-  "group flex h-full flex-col rounded-2xl border border-white/10 bg-white/[0.03] p-5 transition hover:border-white/20 hover:bg-white/[0.06]";
+  "group flex h-full flex-col rounded-2xl border border-[var(--border-subtle)] bg-[var(--surface-soft)] p-5 transition hover:border-[var(--border-strong)] hover:bg-[var(--surface-hover)]";
 
 function ProductCard({
   product,
@@ -19,7 +19,7 @@ function ProductCard({
   return (
     <ScrollReveal delay={index * 0.04} className="h-full">
       <article className={cardClass}>
-        <div className="flex h-24 items-center justify-center rounded-xl border border-white/10 bg-black/20 px-5">
+        <div className="flex h-24 items-center justify-center rounded-xl border border-[var(--border-subtle)] bg-[var(--surface-muted)] px-5">
           <Image
             src={product.src}
             alt={product.alt}
@@ -30,10 +30,10 @@ function ProductCard({
           />
         </div>
         <div className="mt-5 flex flex-1 flex-col">
-          <h3 className="text-xl font-semibold text-white">
+          <h3 className="text-xl font-semibold text-[var(--text-primary)]">
             {t(`items.${product.key}.name`)}
           </h3>
-          <p className="mt-3 text-sm leading-relaxed text-white/60">
+          <p className="mt-3 text-sm leading-relaxed text-[var(--text-muted)]">
             {t(`items.${product.key}.desc`)}
           </p>
         </div>

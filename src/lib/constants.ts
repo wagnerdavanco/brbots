@@ -12,8 +12,4 @@ export const COMPANY = {
     city: "São Paulo",
     zip: "04.011-904",
   },
-  addressSV: {
-    city: "Sunnyvale, CA",
-    venue: "Innovation Center",
-  },
 } as const;

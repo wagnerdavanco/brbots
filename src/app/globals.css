@@ -1,14 +1,43 @@
 @import "tailwindcss";
 
 :root {
-  --bg-primary: #0A0A0F;
-  --bg-elevated: #13131A;
+  --bg-primary: #F8FAFC;
+  --bg-elevated: #FFFFFF;
   --brand-from: #8B5CF6;
   --brand-to: #06B6D4;
+  --text-primary: #0F172A;
+  --text-muted: #475569;
+  --text-subtle: #64748B;
+  --text-faint: #94A3B8;
+  --surface-soft: rgba(15, 23, 42, 0.04);
+  --surface-muted: rgba(15, 23, 42, 0.06);
+  --surface-hover: rgba(15, 23, 42, 0.08);
+  --border-faint: rgba(15, 23, 42, 0.06);
+  --border-subtle: rgba(15, 23, 42, 0.10);
+  --border-strong: rgba(15, 23, 42, 0.18);
+  --header-bg: rgba(248, 250, 252, 0.78);
+  --grid-line: rgba(15, 23, 42, 0.06);
+  --card-inset-shadow: rgba(15, 23, 42, 0.04);
+  color-scheme: light;
+}
+
+html[data-theme="dark"] {
+  --bg-primary: #0A0A0F;
+  --bg-elevated: #13131A;
   --text-primary: #FAFAFA;
   --text-muted: #A1A1AA;
-  --border-subtle: rgba(255, 255, 255, 0.08);
-  --border-strong: rgba(255, 255, 255, 0.16);
+  --text-subtle: #D4D4D8;
+  --text-faint: #71717A;
+  --surface-soft: rgba(255, 255, 255, 0.03);
+  --surface-muted: rgba(255, 255, 255, 0.05);
+  --surface-hover: rgba(255, 255, 255, 0.08);
+  --border-faint: rgba(255, 255, 255, 0.05);
+  --border-subtle: rgba(255, 255, 255, 0.10);
+  --border-strong: rgba(255, 255, 255, 0.20);
+  --header-bg: rgba(10, 10, 15, 0.70);
+  --grid-line: rgba(255, 255, 255, 0.04);
+  --card-inset-shadow: rgba(255, 255, 255, 0.03);
+  color-scheme: dark;
 }
 
 @theme inline {
@@ -26,6 +55,7 @@
 html, body {
   background: var(--bg-primary);
   color: var(--text-primary);
+  transition: background-color 180ms ease, color 180ms ease;
 }
 
 body {
@@ -62,7 +92,7 @@ body {
 
 .grid-bg {
   background-image:
-    linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+    linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
   background-size: 48px 48px;
 }

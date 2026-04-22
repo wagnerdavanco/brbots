@@ -14,15 +14,15 @@ export default function Error({
   }, [error]);
 
   return (
-    <div className="min-h-screen grid place-items-center bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white p-8">
+    <div className="grid min-h-screen place-items-center bg-[var(--bg-primary)] p-8 text-[var(--text-primary)]">
       <div className="text-center space-y-6 max-w-md">
         <h2 className="text-3xl font-bold brand-text">Algo deu errado</h2>
-        <p className="text-gray-400">
+        <p className="text-[var(--text-muted)]">
           Ocorreu um erro inesperado. Tente novamente.
         </p>
         <button
           onClick={reset}
-          className="inline-block rounded-full bg-gradient-to-r from-[hsl(var(--brand-start))] to-[hsl(var(--brand-end))] px-8 py-3 font-semibold text-white transition hover:opacity-90"
+          className="inline-block rounded-full brand-gradient px-8 py-3 font-semibold text-white transition hover:opacity-90"
         >
           Tentar novamente
         </button>

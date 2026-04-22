@@ -17,7 +17,7 @@ export function LanguageToggle({ className }: { className?: string }) {
   }
 
   return (
-    <div className={cn("inline-flex items-center gap-1 rounded-full border border-white/10 p-1", className)}>
+    <div className={cn("inline-flex items-center gap-1 rounded-full border border-[var(--border-subtle)] bg-[var(--surface-soft)] p-1", className)}>
       {locales.map((l) => (
         <button
           key={l}
@@ -25,7 +25,9 @@ export function LanguageToggle({ className }: { className?: string }) {
           aria-current={l === locale ? "true" : undefined}
           className={cn(
             "px-2.5 py-1 rounded-full text-xs font-medium transition",
-            l === locale ? "bg-white/10 text-white" : "text-white/50 hover:text-white"
+            l === locale
+              ? "bg-[var(--surface-hover)] text-[var(--text-primary)]"
+              : "text-[var(--text-faint)] hover:text-[var(--text-primary)]"
           )}
         >
           {l.toUpperCase()}

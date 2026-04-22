@@ -64,7 +64,7 @@ export function ContactSection() {
             <Button type="submit" size="lg" variant="primary" disabled={isSubmitting}>
               <MessageCircle className="h-4 w-4" /> {t("submit")}
             </Button>
-            <a href={buildWhatsAppUrl()} target="_blank" rel="noreferrer" className="text-sm text-white/60 hover:text-white underline-offset-4 hover:underline">
+            <a href={buildWhatsAppUrl()} target="_blank" rel="noreferrer" className="text-sm text-[var(--text-muted)] underline-offset-4 hover:text-[var(--text-primary)] hover:underline">
               {t("direct")}
             </a>
           </div>
@@ -87,7 +87,7 @@ function Field({
 }) {
   return (
     <label className={`flex flex-col gap-1.5 ${className ?? ""}`}>
-      <span className="text-xs uppercase tracking-widest text-white/60">{label}</span>
+      <span className="text-xs uppercase tracking-widest text-[var(--text-muted)]">{label}</span>
       {children}
       {error && <span className="text-xs text-red-400">{error}</span>}
     </label>

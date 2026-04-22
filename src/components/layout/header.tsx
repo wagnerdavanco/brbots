@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { LanguageToggle } from "./language-toggle";
 import { buildWhatsAppUrl } from "@/lib/whatsapp";
 import { BrandLogo } from "./brand-logo";
+import { ThemeToggle } from "./theme-toggle";
 
 export function Header() {
   const t = useTranslations("nav");
@@ -34,24 +35,25 @@ export function Header() {
       className={cn(
         "fixed top-0 inset-x-0 z-50 transition-all",
         scrolled
-          ? "bg-[var(--bg-primary)]/70 backdrop-blur-lg border-b border-white/5"
+          ? "border-b border-[var(--border-faint)] bg-[var(--header-bg)] backdrop-blur-lg"
           : "bg-transparent"
       )}
     >
-      <div className="mx-auto max-w-7xl px-6 h-16 flex items-center justify-between">
+      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6">
         <Link href="/" className="shrink-0" aria-label="BRBots S/A">
-          <BrandLogo />
+          <BrandLogo imageClassName="w-28 sm:w-36 md:w-44" />
         </Link>
         <nav className="hidden lg:flex items-center gap-6">
           {links.map((l) => (
-            <a key={l.href} href={l.href} className="text-sm text-white/70 hover:text-white transition">
+            <a key={l.href} href={l.href} className="text-sm text-[var(--text-muted)] transition hover:text-[var(--text-primary)]">
               {l.label}
             </a>
           ))}
         </nav>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 sm:gap-3">
           <LanguageToggle />
-          <a href={buildWhatsAppUrl()} target="_blank" rel="noreferrer">
+          <ThemeToggle labels={{ light: t("theme_white"), dark: t("theme_black") }} />
+          <a href={buildWhatsAppUrl()} target="_blank" rel="noreferrer" className="hidden md:block">
             <Button variant="primary" size="sm">{t("cta_whatsapp")}</Button>
           </a>
         </div>

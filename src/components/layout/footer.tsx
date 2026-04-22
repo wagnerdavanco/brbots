@@ -31,35 +31,35 @@ export function Footer() {
   const t = useTranslations("footer");
   const year = new Date().getFullYear();
   return (
-    <footer className="border-t border-white/5 mt-24">
+    <footer className="mt-24 border-t border-[var(--border-faint)]">
       <div className="mx-auto max-w-7xl px-6 py-12 grid gap-8 md:grid-cols-3">
         <div>
           <BrandLogo imageClassName="w-44" />
-          <p className="mt-2 text-sm text-white/60 max-w-xs">{t("tagline")}</p>
+          <p className="mt-2 max-w-xs text-sm text-[var(--text-muted)]">{t("tagline")}</p>
         </div>
-        <div className="text-sm text-white/60 space-y-1">
-          <p className="text-white font-medium">{t("company")}</p>
+        <div className="space-y-1 text-sm text-[var(--text-muted)]">
+          <p className="font-medium text-[var(--text-primary)]">{t("company")}</p>
           <p>{t("cnpj")}</p>
           <p>{COMPANY.addressSP.line1}</p>
           <p>{COMPANY.addressSP.neighborhood} — CEP {COMPANY.addressSP.zip}</p>
           <p>{COMPANY.phone}</p>
         </div>
         <div className="flex md:justify-end items-start gap-3">
-          <a aria-label="Facebook" href="https://www.facebook.com/brbotssaoficial/" target="_blank" rel="noreferrer" className="p-2 rounded-full border border-white/10 hover:bg-white/5">
+          <a aria-label="Facebook" href="https://www.facebook.com/brbotssaoficial/" target="_blank" rel="noreferrer" className="rounded-full border border-[var(--border-subtle)] p-2 hover:bg-[var(--surface-muted)]">
             <FacebookIcon className="h-4 w-4" />
           </a>
-          <a aria-label="LinkedIn" href="#" className="p-2 rounded-full border border-white/10 hover:bg-white/5">
+          <a aria-label="LinkedIn" href="#" className="rounded-full border border-[var(--border-subtle)] p-2 hover:bg-[var(--surface-muted)]">
             <LinkedinIcon className="h-4 w-4" />
           </a>
-          <a aria-label="Instagram" href="#" className="p-2 rounded-full border border-white/10 hover:bg-white/5">
+          <a aria-label="Instagram" href="#" className="rounded-full border border-[var(--border-subtle)] p-2 hover:bg-[var(--surface-muted)]">
             <InstagramIcon className="h-4 w-4" />
           </a>
-          <a aria-label="Email" href="mailto:contato@brbotssa.com.br" className="p-2 rounded-full border border-white/10 hover:bg-white/5">
+          <a aria-label="Email" href="mailto:contato@brbotssa.com.br" className="rounded-full border border-[var(--border-subtle)] p-2 hover:bg-[var(--surface-muted)]">
             <Mail className="h-4 w-4" />
           </a>
         </div>
       </div>
-      <div className="border-t border-white/5 py-6 text-center text-xs text-white/40">
+      <div className="border-t border-[var(--border-faint)] py-6 text-center text-xs text-[var(--text-faint)]">
         © {year} {COMPANY.name}. {t("rights")}
       </div>
     </footer>

@@ -15,13 +15,13 @@ export function HeroSection() {
       <AnimatedGrid />
       <GradientBlob className="absolute -top-20 left-1/2 -translate-x-1/2 h-[500px] w-[700px] rounded-full" />
       <div className="relative mx-auto max-w-6xl px-6 text-center">
-        <span className="text-xs font-mono uppercase tracking-[0.25em] text-white/60">
+        <span className="text-xs font-mono uppercase tracking-[0.25em] text-[var(--text-muted)]">
           {t("eyebrow")}
         </span>
         <h1 className="mt-4 text-4xl sm:text-5xl md:text-7xl font-semibold tracking-tight leading-[1.05]">
           <GradientText>{t("title")}</GradientText>
         </h1>
-        <p className="mt-6 mx-auto max-w-2xl text-lg md:text-xl text-white/70">
+        <p className="mx-auto mt-6 max-w-2xl text-lg text-[var(--text-muted)] md:text-xl">
           {t("subtitle")}
         </p>
         <div className="mt-10 flex flex-col sm:flex-row gap-3 items-center justify-center">

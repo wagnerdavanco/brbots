@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -48,6 +49,17 @@ const jsonLd = {
   },
 };
 
+const themeInitScript = `
+  (() => {
+    try {
+      const theme = localStorage.getItem("brbots-theme") === "dark" ? "dark" : "light";
+      document.documentElement.dataset.theme = theme;
+    } catch {
+      document.documentElement.dataset.theme = "light";
+    }
+  })();
+`;
+
 export default async function LocaleLayout({
   children,
   params,
@@ -60,8 +72,13 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} data-theme="light" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <Script
+          id="theme-init"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{ __html: themeInitScript }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

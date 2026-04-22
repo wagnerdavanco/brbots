@@ -7,7 +7,9 @@
     "differentials": "Why BRBots",
     "applications": "Applications",
     "contact": "Contact",
-    "cta_whatsapp": "Chat on WhatsApp"
+    "cta_whatsapp": "Chat on WhatsApp",
+    "theme_white": "White theme",
+    "theme_black": "Black theme"
   },
   "hero": {
     "eyebrow": "BRBots Inc.",
@@ -23,8 +25,7 @@
     "body_1": "BRBots are virtual service systems designed to interact with end consumers, delivering a unique fast and efficient communication experience at up to eight times lower cost than traditional human agents.",
     "body_2": "We are a leading provider of computerized telephony technology, known for flexibility in tailoring products for marketing, collections, call centers, card issuers, customer service, and more.",
     "offices_title": "Offices",
-    "office_sp": "São Paulo — Brazil · Main Office",
-    "office_sv": "Sunnyvale — California · Innovation Center"
+    "office_sp": "São Paulo — Brazil · Main Office"
   },
   "advantages": {
     "eyebrow": "Advantages",
@@ -134,10 +135,6 @@
       "address": "Rua Estela, 515 — Conj. 81/82 — Bloco A",
       "neighborhood": "Vila Mariana",
       "zip": "ZIP 04.011-904"
-    },
-    "sv": {
-      "city": "Sunnyvale, California",
-      "address": "Innovation Center"
     },
     "phone": "+55 11 2391-2687"
   },

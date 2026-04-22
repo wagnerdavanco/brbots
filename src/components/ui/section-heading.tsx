@@ -29,10 +29,10 @@ export function SectionHeading({
           </span>
         </div>
       )}
-      <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight text-white">
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight text-[var(--text-primary)]">
         {title}
       </h2>
-      {subtitle && <p className="mt-4 text-base md:text-lg text-white/60">{subtitle}</p>}
+      {subtitle && <p className="mt-4 text-base md:text-lg text-[var(--text-muted)]">{subtitle}</p>}
     </div>
   );
 }

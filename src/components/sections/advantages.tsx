@@ -19,9 +19,9 @@ export function AdvantagesSection() {
               <ScrollReveal key={key} delay={i * 0.05}>
                 <CardGradientBorder className="h-full">
                   <div className="flex flex-col gap-3 h-full">
-                    {Icon && <Icon className="h-6 w-6 text-white/80" />}
+                    {Icon && <Icon className="h-6 w-6 text-[var(--text-primary)]" />}
                     <h3 className="text-lg font-semibold">{t(`items.${key}.title`)}</h3>
-                    <p className="text-sm text-white/60">{t(`items.${key}.desc`)}</p>
+                    <p className="text-sm text-[var(--text-muted)]">{t(`items.${key}.desc`)}</p>
                   </div>
                 </CardGradientBorder>
               </ScrollReveal>
